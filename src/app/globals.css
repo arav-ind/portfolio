@@ -17,11 +17,21 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+    min-height: 100vh;
+    /* overflow: hidden; */
+    color: #FFFFFF;
+    background: linear-gradient(179deg, rgba(0, 62, 54, 0.68) 1.23%, #000 107.33%);
+}
+
+.disabled {
+  opacity: 0.1;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
