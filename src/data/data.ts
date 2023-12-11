@@ -4,6 +4,8 @@ import theatres from '@/icons/theaters.svg'
 import translate from '@/icons/translate.svg'
 import code from '@/icons/code.svg'
 import terminal from '@/icons/terminal.svg'
+import tv from '@/icons/tv.svg'
+import article from '@/icons/article.svg'
 
 export const cardData = [
     {
@@ -37,7 +39,7 @@ export const cardData = [
     {
         id: 'shows',
         title: 'Shows',
-        icon: theatres,
+        icon: tv,
         background: 'linear-gradient(95deg, #1DFF93 0%, rgba(140, 210, 151, 0.13) 136.08%)',
         tag: 'extras'
     },
@@ -51,7 +53,7 @@ export const cardData = [
     {
         id: 'blogs',
         title: 'Blogs',
-        icon: theatres,
+        icon: article,
         background: 'linear-gradient(122deg, #835757 0%, rgba(141, 0, 0, 0.00) 189.13%)',
         tag: 'works'
     },

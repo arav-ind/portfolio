@@ -1,6 +1,7 @@
 import mail from '@/icons/mail.svg'
-import call from '@/icons/call.svg'
 import Image from 'next/image'
+import linkedin from '@/icons/linkedin.svg'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -12,8 +13,8 @@ export default function Footer() {
                 <span>aravindrndv8@gmail.com</span>
             </div>
             <div className='flex gap-2'>
-                <Image src={call} alt='mail'/>
-                <p>+91-8012544554</p>
+                <Image src={linkedin} alt='mail'/>
+                <Link href='https://www.linkedin.com/in/arav-ind/' target='_blank'>LinkedIn</Link>
             </div>
         </div>
     </div>
