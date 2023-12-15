@@ -22,7 +22,7 @@ export default function Card({key, background, icon, title, tag}: CardType) {
     <div 
       key={key}
       className={`relative w-64 h-44 bg-slate-900 rounded-3xl flex justify-center items-center 
-      hover:scale-105 transition-all duration-300 drop-shadow-lg opacity-100
+      hover:scale-105 transition-all duration-300 drop-shadow-lg opacity-100 cursor-pointer
       ${selected === null || tag === selected ? '' : 'disabled'}`}
       style={{background: background}}
       onClick={showModal}

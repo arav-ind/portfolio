@@ -24,7 +24,7 @@ export default function Home() {
         <div className='h-7'>
           <TypeAnimationComponent />
         </div>
-        <div className='flex pt-10 flex-wrap gap-10 justify-center'>
+        <div className='flex py-10 flex-wrap gap-10 justify-center items-center'>
           {renderCards()}
         </div>
       </main>
