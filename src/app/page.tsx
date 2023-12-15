@@ -9,6 +9,7 @@ export default function Home() {
     cardData.map(data => (
       <Card
         key={data.id}
+        id={data.id}
         background={data.background}
         icon={data.icon}
         title={data.title}
