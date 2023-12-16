@@ -44,7 +44,7 @@ export default function Modal() {
             ${content ? 'show-modal' : 'hide-modal'}`}
         >
             <Image className='absolute w-6 h-6 top-9 right-2 z-50 cursor-pointer' onClick={hideModal} src={close} alt='close' />
-            <div className='relative flex justify-center items-center mt-16 w-full h-full bg-[#333333] text-white overflow-y-scroll rounded-lg no-scrollbar'>
+            <div className='relative flex justify-center items-center mt-16 w-full h-full bg-[#333333] text-[#CCCCCC] overflow-y-scroll rounded-lg no-scrollbar'>
                 {renderContent(content)}
             </div>
         </div>
