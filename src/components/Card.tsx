@@ -9,9 +9,7 @@ export default function Card({id, background, icon, title, tag}: CardType) {
   const searchParams = useSearchParams()
   const selected = searchParams.get('view')
   
-  const showModal = (id: string) => {
-    console.log('Aravind tag', id)
-    
+  const showModal = (id: string) => {    
     document.body.style.overflowY = 'hidden'
     if (!selected) {
       router.push(`?content=${id}`)

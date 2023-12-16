@@ -29,8 +29,8 @@ export default function Modal() {
                 return <div>Shows</div>
             case 'projects':
                 return <Projects />
-            case 'blogs':
-                return <div>Blogs</div>
+            case 'technologies':
+                return <div>Technologies</div>
             case 'contributions':
                 return <div>Contributions</div>
             default:

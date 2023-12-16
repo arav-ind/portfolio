@@ -5,7 +5,7 @@ import translate from '@/icons/translate.svg'
 import code from '@/icons/code.svg'
 import terminal from '@/icons/terminal.svg'
 import tv from '@/icons/tv.svg'
-import article from '@/icons/article.svg'
+import technology from'@/icons/technology.svg'
 
 export const cardData = [
     {
@@ -23,11 +23,11 @@ export const cardData = [
         tag: 'extras'
     },
     {
-        id: 'hobbies',
-        title: 'Hobbies',
-        icon: sports,
-        background: 'linear-gradient(90deg, #FFA7C2 0%, rgba(244, 138, 14, 0.13) 128.62%)',
-        tag: 'extras'
+        id: 'technologies',
+        title: 'Technologies',
+        icon: technology,
+        background: 'linear-gradient(122deg, #835757 0%, rgba(141, 0, 0, 0.00) 189.13%)',
+        tag: 'works'
     },
     {
         id: 'languages',
@@ -51,15 +51,15 @@ export const cardData = [
         tag: 'works'
     },
     {
-        id: 'blogs',
-        title: 'Blogs',
-        icon: article,
-        background: 'linear-gradient(122deg, #835757 0%, rgba(141, 0, 0, 0.00) 189.13%)',
-        tag: 'works'
+        id: 'hobbies',
+        title: 'Hobbies',
+        icon: sports,
+        background: 'linear-gradient(90deg, #FFA7C2 0%, rgba(244, 138, 14, 0.13) 128.62%)',
+        tag: 'extras'
     },
     {
         id: 'contributions',
-        title: 'My Contributions',
+        title: 'Open Source',
         icon: terminal,
         background: 'linear-gradient(122deg, #00FFF0 0%, rgba(49, 88, 0, 0.00) 189.13%)',
         tag: 'works'
