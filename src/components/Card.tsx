@@ -14,9 +14,9 @@ export default function Card({id, background, icon, title, tag}: CardType) {
     
     document.body.style.overflowY = 'hidden'
     if (!selected) {
-      router.push(`?showmodal=true&content=${id}`)
+      router.push(`?content=${id}`)
     } else {
-      router.push(`${location.href}&showmodal=true&content=${id}`)
+      router.push(`${location.href}&content=${id}`)
     }
   }
   
