@@ -1,9 +1,9 @@
 'use client'
 
+import Projects from '@/ModalPages/Projects'
 import close from '@/icons/close.svg'
 import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
-import Projects from './Projects'
 
 export default function Modal() {
     const router = useRouter()
