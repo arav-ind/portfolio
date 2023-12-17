@@ -30,7 +30,7 @@ export default function Projects() {
                         content using the <b>Shaka Video Player</b>.
                     </p>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <Image src={astroIcon} alt='AstroGO logo' width={50} height={50} />
@@ -50,7 +50,7 @@ export default function Projects() {
                         Implemented the <b>DashJS</b> player and played a key role in the migration process.
                     </p>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
@@ -63,7 +63,7 @@ export default function Projects() {
                     </p>
                     <Link className='text-sm leading-5 italic' href='https://github.com/arav-ind/react-svgmap-india' target='_blank'>Click Here to Checkout!</Link>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
