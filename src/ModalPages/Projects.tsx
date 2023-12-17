@@ -22,8 +22,8 @@ export default function Projects() {
                         compatible with platforms such as <b>LGWebOS</b> and <b>Samsung TizenOS</b>.
                     </p>
                     <p className='text-sm leading-5'>
-                        Involved in the implementation of interactive screens, crafted multiple <b>reusable components,</b> 
-                        and introduced various UI enhancements. Additionally, addressed and resolved diverse issues.
+                        Involved in the implementation of interactive screens, crafted multiple <b>reusable components, </b> 
+                        and implemented various UI enhancements. Additionally, addressed and resolved diverse issues.
                     </p>
                     <p className='text-sm leading-5'>
                         Contributed to the implementation of client-side functionalities for <b>DRM-protected </b> 

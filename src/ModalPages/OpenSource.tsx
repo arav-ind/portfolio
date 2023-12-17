@@ -35,10 +35,10 @@ export default function OpenSource() {
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
                 <div className='flex flex-col items-start gap-4'>
-                    <p className='text-sm italic'>
-                        Further, getting updated on new releases and trying to go through and 
+                    <p className='text-sm'>
+                        <i>Further, getting updated on new releases and trying to go through and 
                         debug the reported issues whenever possible. 
-                        Will update more soon...😉
+                        Will update more soon...</i>😉
                     </p>
                 </div>
                 <div className='flex flex-col mt-5 gap-4'>

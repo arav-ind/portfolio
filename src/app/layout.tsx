@@ -7,7 +7,7 @@ import Modal from '@/components/Modal'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Aravind\'s Portfolio',
+  title: 'Aravind D | Software Engineer',
   description: 'Aravind\'s Portfolio',
 }
 
