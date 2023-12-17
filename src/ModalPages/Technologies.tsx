@@ -8,7 +8,7 @@ export default function Technologies() {
             <div className='flex'>
                 <div className='font-semibold text-3xl pt-5'>Technologies</div>
             </div>
-            <div id='opensource-content' className='lg:w-[40%] w-[80%] h-full flex flex-col 
+            <div id='technologies-content' className='lg:w-[40%] w-[80%] h-full flex flex-col 
             items-center mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
                 {
                     (Object.keys(technologiesModalSource) as Array<keyof TechnologiesModalSourceType>).map((item) => (
