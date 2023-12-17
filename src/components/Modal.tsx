@@ -7,6 +7,7 @@ import OpenSource from '@/modalpages/OpenSource'
 import Projects from '@/modalpages/Projects'
 import close from '@/icons/close.svg'
 import Technologies from '@/modalpages/Technologies'
+import Languages from '@/modalpages/Languages'
 
 export default function Modal() {
     const router = useRouter()
@@ -33,7 +34,7 @@ export default function Modal() {
             case 'hobbies':
                 return <div>Hobbies</div>
             case 'languages':
-                return <div>Languages</div>
+                return <Languages />
             case 'shows':
                 return <div>Shows</div>
             case 'projects':
