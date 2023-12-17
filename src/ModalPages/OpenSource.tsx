@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import reactIcon from '@/icons/react.svg'
+import reactIcon from '@/icons/technologies/react.svg'
 import Link from 'next/link'
 
 export default function OpenSource() {

@@ -7,6 +7,22 @@ import terminal from '@/icons/terminal.svg'
 import tv from '@/icons/tv.svg'
 import technology from'@/icons/technology.svg'
 
+import react from '@/icons/technologies/react.svg'
+import javascript from '@/icons/technologies/javascript.svg'
+import typescript from '@/icons/technologies/typescript.svg'
+import html5 from '@/icons/technologies/html5.svg'
+import aws from '@/icons/technologies/aws.svg'
+import git from '@/icons/technologies/git.svg'
+import java from '@/icons/technologies/java.svg'
+import nextjs from '@/icons/technologies/nextjs.svg'
+import nodejs from '@/icons/technologies/nodejs.svg'
+import springboot from '@/icons/technologies/springboot.svg'
+import angular from '@/icons/technologies/angular.svg'
+import tailwind from '@/icons/technologies/tailwind.svg'
+import docker from '@/icons/technologies/docker.svg'
+import css from '@/icons/technologies/css.svg'
+import { TechnologiesModalSourceType } from '@/types/types'
+
 export const cardData = [
     {
         id: 'resume',
@@ -65,3 +81,78 @@ export const cardData = [
         tag: 'works'
     },
 ]
+
+// For Technologies Modal
+export const technologiesModalSource: TechnologiesModalSourceType = {
+    tier1: {
+        title: '⭐⭐⭐⭐½',
+        data: [
+            {
+                name: 'HTML5',
+                logo: html5,
+            },
+            {
+                name: 'CSS',
+                logo: css,
+            },
+            {
+                name: 'JavaScript',
+                logo: javascript,
+            },
+            {
+                name: 'ReactJS',
+                logo: react,
+            },
+            {
+                name: 'NextJS',
+                logo: nextjs,
+            },
+            {
+                name: 'Git',
+                logo: git,
+            },
+            {
+                name: 'Tailwind',
+                logo: tailwind,
+            },
+        ],
+    },
+    tier2: {
+        title: '⭐⭐⭐½',
+        data: [
+            {
+                name: 'Java',
+                logo: java,
+            },
+            {
+                name: 'TypeScript',
+                logo: typescript,
+            },
+            {
+                name: 'Spring',
+                logo: springboot,
+            },
+            {
+                name: 'NodeJS',
+                logo: nodejs,
+            },
+        ],
+    },
+    tier3: {
+        title: '⭐⭐⭐',
+        data: [
+            {
+                name: 'AWS',
+                logo: aws,
+            },
+            {
+                name: 'Docker',
+                logo: docker,
+            },
+            {
+                name: 'Angular',
+                logo: angular,
+            },
+        ],
+    }
+}
