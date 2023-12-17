@@ -26,7 +26,7 @@ export default function Technologies() {
                                     }
                                 </div>
                             </div>
-                            <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg opacity-40 rounded-lg' />
+                            <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
                         </div>
                     ))
                 }
