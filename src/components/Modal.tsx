@@ -1,15 +1,23 @@
 'use client'
 
+import { useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
+import Image from 'next/image'
 import OpenSource from '@/modalpages/OpenSource'
 import Projects from '@/modalpages/Projects'
 import close from '@/icons/close.svg'
-import Image from 'next/image'
-import { useRouter, useSearchParams } from 'next/navigation'
+import Technologies from '@/modalpages/Technologies'
 
 export default function Modal() {
     const router = useRouter()
     const searchParams = useSearchParams()
     const content = searchParams.get('content')
+
+    useEffect(() => {
+        if (!content) {
+            document.body.style.overflowY = 'scroll'
+        }
+    }, [content])
 
     const hideModal = () => {
         document.body.style.overflowY = 'scroll'
@@ -31,7 +39,7 @@ export default function Modal() {
             case 'projects':
                 return <Projects />
             case 'technologies':
-                return <div>Technologies</div>
+                return <Technologies />
             case 'contributions':
                 return <OpenSource />
             default:
