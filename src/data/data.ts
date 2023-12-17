@@ -112,7 +112,7 @@ export const technologiesModalSource: TechnologiesModalSourceType = {
                 logo: git,
             },
             {
-                name: 'Tailwind',
+                name: 'TailwindCSS',
                 logo: tailwind,
             },
         ],
