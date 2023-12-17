@@ -1,6 +1,7 @@
 'use client'
 
-import Projects from '@/ModalPages/Projects'
+import OpenSource from '@/modalpages/OpenSource'
+import Projects from '@/modalpages/Projects'
 import close from '@/icons/close.svg'
 import Image from 'next/image'
 import { useRouter, useSearchParams } from 'next/navigation'
@@ -32,7 +33,7 @@ export default function Modal() {
             case 'technologies':
                 return <div>Technologies</div>
             case 'contributions':
-                return <div>Contributions</div>
+                return <OpenSource />
             default:
                 return null
         }

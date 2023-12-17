@@ -16,4 +16,6 @@ export const FOOTER = {
     EMAIL: 'aravindrndv8@gmail.com',
     LINKEDIN: 'LinkedIn',
     LINK: 'https://www.linkedin.com/in/arav-ind/',
+    GITHUB_LINK: 'https://github.com/arav-ind',
+    GITHUB: 'GitHub'
 }

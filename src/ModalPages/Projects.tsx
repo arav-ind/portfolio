@@ -11,7 +11,7 @@ export default function Projects() {
             <div className='flex'>
                 <div className='font-semibold text-3xl pt-5'>My Projects</div>
             </div>
-            <div id='projects-content' className='sm:w-[40%] w-full sm:px-0 px-8 h-full flex flex-col items-start mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
+            <div id='projects-content' className='sm:w-[40%] w-full sm:px-2 px-8 h-full flex flex-col items-start mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-4'>
                         <Image src={zee5Icon} alt='Zee5 logo' width={50} height={50} />
