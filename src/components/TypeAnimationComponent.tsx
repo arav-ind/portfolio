@@ -5,10 +5,10 @@ import { INTRO } from '@/constants/constants'
 import { useState } from 'react'
 
 export default function TypeAnimationComponent() {
-    const [showAnimation, setShowAnimation] = useState(true)
-    return (
-      <div className='whitespace-nowrap font-bold text-xl' onClick={() => setShowAnimation(!showAnimation)}>
-        {showAnimation ? 
+  const [showAnimation, setShowAnimation] = useState(true)
+  return (
+    <div className='whitespace-nowrap font-bold text-xl' onClick={() => setShowAnimation(!showAnimation)}>
+      {showAnimation ?
         (<TypeAnimation
           sequence={[
             INTRO.TEXT1,
@@ -21,9 +21,9 @@ export default function TypeAnimationComponent() {
           wrapper='span'
           speed={10}
           repeat={Infinity}
-        />):(
+        />) : (
           <p>{INTRO.TEXT1}</p>
         )}
-      </div>
-    )
-  }
+    </div>
+  )
+}
