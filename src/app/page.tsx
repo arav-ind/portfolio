@@ -1,5 +1,4 @@
 import Card from '@/components/Card'
-// import Navbar from '@/components/Navbar'
 import { cardData } from '@/data/data'
 import Footer from '@/components/Footer'
 import TypeAnimationComponent from '@/components/TypeAnimationComponent'
