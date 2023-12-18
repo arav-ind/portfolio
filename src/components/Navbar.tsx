@@ -10,7 +10,7 @@ import Image from 'next/image'
 export default function Navbar() {
     return (
       <nav className='flex relative md:justify-between justify-center h-16 items-center md:px-32 px-0 font-semibold text-lg z-10'>
-        <Link className='flex whitespace-nowrap mr-20' href=''>
+        <Link className='flex whitespace-nowrap mr-20' href='?'>
           <span className='absolute lg:hidden flex'><Image src={person} alt='logo'/></span>
           <span className='lg:flex hidden'>{NAVBAR.NAME}</span>
         </Link>
