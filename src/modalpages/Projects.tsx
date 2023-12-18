@@ -18,15 +18,15 @@ export default function Projects() {
                         <p className='font-bold text-xl'>Zee Entertainment</p>
                     </div>
                     <p className='text-sm leading-5'>
-                        Worked extensively in the Frontend Development of the <b>Zee5 Smart-TV App</b>, 
+                        Worked extensively in the Frontend Development of the <b>Zee5 Smart-TV App</b>,
                         compatible with platforms such as <b>LGWebOS</b> and <b>Samsung TizenOS</b>.
                     </p>
                     <p className='text-sm leading-5'>
-                        Involved in the implementation of interactive screens, crafted multiple <b>reusable components, </b> 
+                        Involved in the implementation of interactive screens, crafted multiple <b>reusable components, </b>
                         and implemented various UI enhancements. Additionally, addressed and resolved diverse issues.
                     </p>
                     <p className='text-sm leading-5'>
-                        Contributed to the implementation of client-side functionalities for <b>DRM-protected </b> 
+                        Contributed to the implementation of client-side functionalities for <b>DRM-protected </b>
                         content using the <b>Shaka Video Player</b>.
                     </p>
                 </div>
@@ -38,12 +38,12 @@ export default function Projects() {
                         <Image src={switchtvIcon} alt='SwitchTV logo' width={50} height={50} />
                     </div>
                     <p className='text-sm leading-5'>
-                        <b>AstroGO, StingTV,</b> and <b>SwitchTV</b> are widely used OTT platforms in Malaysia, 
+                        <b>AstroGO, StingTV,</b> and <b>SwitchTV</b> are widely used OTT platforms in Malaysia,
                         Israel, and UAE respectively.
                     </p>
                     <p className='text-sm leading-5'>
-                        Significantly contributed to the <b>Frontend Development</b> of their Smart TV Apps using <b>ReactJS</b>. 
-                        Worked on UI Revamps, integrated features such as Vertical Scrolling, <b>Remote Navigation</b>, Circular Banner, 
+                        Significantly contributed to the <b>Frontend Development</b> of their Smart TV Apps using <b>ReactJS</b>.
+                        Worked on UI Revamps, integrated features such as Vertical Scrolling, <b>Remote Navigation</b>, Circular Banner,
                         Enhanced Search screen with voice module, <b>Authentication,</b> localization, etc.
                     </p>
                     <p className='text-sm leading-5'>
@@ -72,8 +72,8 @@ export default function Projects() {
                         </p>
                     </div>
                     <p className='text-sm leading-5'>
-                        Implemented Backend for a Chat based application with <b>Nodejs, Express, Websocket, AWS S3, EC2, 
-                        Load Balancer</b> and <b>MongoDB.</b>
+                        Implemented Backend for a Chat based application with <b>Nodejs, Express, Websocket, AWS S3, EC2,
+                            Load Balancer</b> and <b>MongoDB.</b>
                     </p>
                     <p className='text-sm leading-5 italic'>
                         Also implemented clone web apps like Youtube with <b>Redux </b>, React, TypeScript and YoutubeAPI.

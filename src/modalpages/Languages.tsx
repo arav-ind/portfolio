@@ -10,8 +10,8 @@ export default function Languages() {
             </div>
             <div id='language-content' className='w-[50%] sm:px-2 px-8 h-full flex flex-col items-center
             mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar overflow-x-hidden'>
-            <div className='flex items-center justify-center mt-5 gap-4 flex-wrap flex-col'>
-                   <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
+                <div className='flex items-center justify-center mt-5 gap-4 flex-wrap flex-col'>
+                    <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             தமிழ்
                             <span className='text-sm font-extralight'> (Native)</span>
@@ -20,9 +20,9 @@ export default function Languages() {
                         <div className='mt-4'>
                             <p>⭐⭐⭐⭐⭐</p>
                         </div>
-                   </div>
+                    </div>
                     <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
-                   <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
+                    <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             English
                             <span className='text-sm font-extralight'> (Business)</span>
@@ -31,9 +31,9 @@ export default function Languages() {
                         <div className='mt-4'>
                             <p>⭐⭐⭐⭐</p>
                         </div>
-                   </div>
+                    </div>
                     <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
-                   <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
+                    <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             日本語
                             <span className='text-sm font-extralight'> (Intermediate)</span>
@@ -42,9 +42,9 @@ export default function Languages() {
                         <div className='mt-4'>
                             <p>⭐⭐½</p>
                         </div>
-                   </div>
+                    </div>
                     <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
-                   <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
+                    <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             हिन्दी
                             <span className='text-sm font-extralight'> (Intermediate)</span>
@@ -53,7 +53,7 @@ export default function Languages() {
                         <div className='mt-4'>
                             <p>⭐⭐⭐</p>
                         </div>
-                   </div>
+                    </div>
                 </div>
                 <div className='flex flex-col mt-5 gap-4'>
                     <div className='w-2 h-2' />

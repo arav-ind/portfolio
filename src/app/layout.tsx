@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className= {`${inter.className} min-h-screen no-scrollbar`}>
+      <body className={`${inter.className} min-h-screen no-scrollbar`}>
         <Modal />
         <Navbar />
         {children}

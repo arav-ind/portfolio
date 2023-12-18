@@ -26,9 +26,9 @@ export default function Modal() {
     }
 
     const renderContent = (content: string | null) => {
-        switch(content) {
+        switch (content) {
             case 'resume':
-                return <iframe className='w-full h-full' src='aravind_resume.pdf'/>
+                return <iframe className='w-full h-full' src='aravind_resume.pdf' />
             case 'movies':
                 return <div>Movies</div>
             case 'hobbies':
@@ -49,7 +49,7 @@ export default function Modal() {
     }
 
     return (
-        <div 
+        <div
             className={`fixed top-0 w-full h-full z-50 bg-transparent transform transition-transform ease-in-out duration-300
             ${content ? 'show-modal' : 'hide-modal'}`}
         >
@@ -59,4 +59,4 @@ export default function Modal() {
             </div>
         </div>
     )
-  }
+}
