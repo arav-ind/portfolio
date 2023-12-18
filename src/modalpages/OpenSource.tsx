@@ -25,12 +25,12 @@ export default function OpenSource() {
                     <p className='text-sm'>
                         Checkout the initial github discussions describing the issue and its fix
                         <Link href='https://github.com/facebook/react/pull/26115'
-                            className='italic font-semibold' target='_blank'> here!</Link>
+                            className='italic text-blue-500' target='_blank'> here!</Link>
                     </p>
                     <p className='text-sm'>
                         Subsequently, implemented some requested modifications and submitted a pull request.
                         <Link href='https://github.com/facebook/react/pull/26130'
-                            className='italic font-semibold' target='_blank'> Click here to checkout!</Link>
+                            className='italic text-blue-500' target='_blank'> Click here to checkout!</Link>
                     </p>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
