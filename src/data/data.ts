@@ -66,13 +66,13 @@ export const cardData = [
         background: 'linear-gradient(95deg, #AE0CA8 0%, rgba(210, 182, 140, 0.13) 136.08%)',
         tag: 'works'
     },
-    {
-        id: 'hobbies',
-        title: 'Hobbies',
-        icon: sports,
-        background: 'linear-gradient(90deg, #FFA7C2 0%, rgba(244, 138, 14, 0.13) 128.62%)',
-        tag: 'extras'
-    },
+    // {
+    //     id: 'hobbies',
+    //     title: 'Hobbies',
+    //     icon: sports,
+    //     background: 'linear-gradient(90deg, #FFA7C2 0%, rgba(244, 138, 14, 0.13) 128.62%)',
+    //     tag: 'extras'
+    // },
     {
         id: 'contributions',
         title: 'Open Source',
@@ -156,3 +156,63 @@ export const technologiesModalSource: TechnologiesModalSourceType = {
         ],
     }
 }
+
+// For Movies Modal
+export const movies = [
+    { name: 'The Shawshank Redemption', language: 'English' },
+    { name: 'Kumbalangi Nights', language: 'Malayalam' },
+    { name: 'Apocalypse Now', language: 'English' },
+    { name: 'Nice View', language: 'Mandarin' },
+    { name: 'Cinema Paradiso', language: 'Italian' },
+    { name: 'Pather Panchali', language: 'Bengali' },
+    { name: '12 Angry Men', language: 'English' },
+    { name: 'The Boy who Harnessed the Wind', language: 'English' },
+    { name: 'Angamaly Diaries', language: 'Malayalam' },
+    { name: 'Django Unchained', language: 'English' },
+    { name: 'The Lunch Box', language: 'Hindi' },
+    { name: 'Fight Club', language: 'English' },
+    { name: 'Train to Busan', language: 'Korean' },
+    { name: 'Halal Love Story', language: 'Malayalam' },
+    { name: 'Nanpagal Nerathu Mayakkam', language: 'Malayalam' },
+    { name: 'Thani Oruvan', language: 'Tamil' },
+    { name: 'Virumandi', language: 'Tamil' },
+    { name: 'Soorarai Potru', language: 'Tamil' },
+    { name: 'Ranna\'s Silence', language: 'Iranian' },
+    { name: '1917', language: 'English' },
+    { name: 'Okuribitio', language: 'Japanese' },
+    { name: 'Escape from Alcatraz', language: 'English' },
+    { name: '2001: A space odessey', language: 'English' },
+    { name: 'The Captain', language: 'Mandarin' },
+    { name: 'Sarpatta Parambarai', language: 'Tamil' },
+    { name: 'Tonari no Totoro', language: 'Japanese' },
+    { name: 'Ran', language: 'Japanese' },
+    { name: 'Vadachennai', language: 'Tamil' },
+    { name: 'The Insult', language: 'Lebanese' },
+    { name: 'John Wick Series', language: 'English' },
+    { name: 'Top Gun', language: 'English' },
+    { name: 'Bhaag Milka Bhaag', language: 'Hindi' },
+    { name: 'MS Dhoni', language: 'Hindi' },
+    { name: '83', language: 'Hindi' },
+]
+
+// For Shows Modal
+export const shows = [
+    { name: 'Naruto', language: 'Japanese' },
+    { name: 'Prison Break', language: 'English' },
+    { name: 'Tonari no Seki-Kun', language: 'Japanese' },
+    { name: 'Attack On Titan', language: 'Japanese' },
+    { name: 'Breaking Bad', language: 'English' },
+    { name: 'Game of Thrones', language: 'English' },
+    { name: 'Panchayat', language: 'Hindi' },
+    { name: 'Chernobyl', language: 'Russian' },
+    { name: 'Mind your Language', language: 'English' },
+    { name: 'Death Note', language: 'Japanese' },
+    { name: 'Peaky Blinders', language: 'English' },
+    { name: 'Narcos', language: 'Spanish' },
+    { name: 'The Good Doctor', language: 'English' },
+    { name: 'Squid Game', language: 'Korean' },
+    { name: 'Scam 1992', language: 'Hindi' },
+    { name: 'Aspirants', language: 'Hindi' },
+    { name: 'Sandeep Bhaiya', language: 'Hindi' },
+    { name: 'What the Folks', language: 'Hindi' },
+]
