@@ -61,7 +61,7 @@ export const cardData = [
     },
     {
         id: 'projects',
-        title: 'My Projects',
+        title: 'Projects',
         icon: code,
         background: 'linear-gradient(95deg, #AE0CA8 0%, rgba(210, 182, 140, 0.13) 136.08%)',
         tag: 'works'
