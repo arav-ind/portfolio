@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import reactIcon from '@/icons/technologies/react.svg'
 import Link from 'next/link'
+import terminal from '@/icons/terminal.svg'
 
 export default function OpenSource() {
     return (
         <div id='opensource' className='absolute w-full h-full flex flex-col items-center'>
-            <div className='flex'>
-                <div className='font-semibold text-3xl pt-5'>Open Source</div>
+            <div className='flex items-center justify-center pt-5 gap-4'>
+                <Image className='opacity-80' src={terminal} alt='logo' />
+                <p className='flex font-semibold text-3xl'>Open Source</p>
             </div>
             <div id='opensource-content' className='sm:w-[40%] w-full sm:px-2 px-8 h-full flex flex-col items-start mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
                 <div className='flex flex-col items-start mt-5 gap-4'>
