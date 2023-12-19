@@ -8,6 +8,8 @@ import Projects from '@/modalpages/Projects'
 import close from '@/icons/close.svg'
 import Technologies from '@/modalpages/Technologies'
 import Languages from '@/modalpages/Languages'
+import Movies from '@/modalpages/Movies'
+import Shows from '@/modalpages/Shows'
 
 export default function Modal() {
     const router = useRouter()
@@ -30,13 +32,13 @@ export default function Modal() {
             case 'resume':
                 return <iframe className='w-full h-full' src='aravind_resume.pdf' />
             case 'movies':
-                return <div>To be updated soon!</div>
+                return <Movies />
             case 'hobbies':
                 return <div>To be updated soon!</div>
             case 'languages':
                 return <Languages />
             case 'shows':
-                return <div>To be updated soon!</div>
+                return <Shows />
             case 'projects':
                 return <Projects />
             case 'technologies':
