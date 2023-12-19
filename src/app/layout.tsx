@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
-import ColorChanger from '@/components/ColorChanger'
 import Modal from '@/components/Modal'
 import Navbar from '@/components/Navbar'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +22,6 @@ export default function RootLayout({
         <Modal />
         <Navbar />
         {children}
-        <ColorChanger />
       </body>
     </html>
   )

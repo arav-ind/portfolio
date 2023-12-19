@@ -30,13 +30,13 @@ export default function Modal() {
             case 'resume':
                 return <iframe className='w-full h-full' src='aravind_resume.pdf' />
             case 'movies':
-                return <div>Movies</div>
+                return <div>To be updated soon!</div>
             case 'hobbies':
-                return <div>Hobbies</div>
+                return <div>To be updated soon!</div>
             case 'languages':
                 return <Languages />
             case 'shows':
-                return <div>Shows</div>
+                return <div>To be updated soon!</div>
             case 'projects':
                 return <Projects />
             case 'technologies':
