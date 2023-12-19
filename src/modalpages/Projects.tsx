@@ -3,13 +3,15 @@ import Image from 'next/image'
 import astroIcon from '@/icons/astro.svg'
 import stingtvIcon from '@/icons/stingtv.webp'
 import switchtvIcon from '@/icons/switchtv.webp'
+import code from '@/icons/code.svg'
 import Link from 'next/link'
 
 export default function Projects() {
     return (
         <div id='projects' className='absolute w-full h-full flex flex-col items-center'>
-            <div className='flex'>
-                <div className='font-semibold text-3xl pt-5'>My Projects</div>
+            <div className='flex items-center justify-center pt-5 gap-4'>
+                <Image className='opacity-80' src={code} alt='logo' />
+                <p className='flex font-semibold text-3xl'>Projects</p>
             </div>
             <div id='projects-content' className='sm:w-[40%] w-full sm:px-2 px-8 h-full flex flex-col items-start mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
                 <div className='flex flex-col items-start mt-5 gap-4'>
@@ -30,7 +32,7 @@ export default function Projects() {
                         content using the <b>Shaka Video Player</b>.
                     </p>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <Image src={astroIcon} alt='AstroGO logo' width={50} height={50} />
@@ -50,7 +52,7 @@ export default function Projects() {
                         Implemented the <b>DashJS</b> player and played a key role in the migration process.
                     </p>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
@@ -63,7 +65,7 @@ export default function Projects() {
                     </p>
                     <Link className='text-sm leading-5 italic' href='https://github.com/arav-ind/react-svgmap-india' target='_blank'>Click Here to Checkout!</Link>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>

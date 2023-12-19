@@ -33,7 +33,7 @@ export default function OpenSource() {
                             className='italic text-blue-500' target='_blank'> Click here to checkout!</Link>
                     </p>
                 </div>
-                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start gap-4'>
                     <p className='text-sm'>
                         <i>Further, getting updated on new releases and trying to go through and

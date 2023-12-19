@@ -21,7 +21,7 @@ export default function Languages() {
                             <p>⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                    <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                     <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             English
@@ -32,7 +32,7 @@ export default function Languages() {
                             <p>⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                    <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                     <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             日本語
@@ -43,7 +43,7 @@ export default function Languages() {
                             <p>⭐⭐½</p>
                         </div>
                     </div>
-                    <hr className='border-t-2 border-gray-300 my-4 w-full opacity-40 rounded-lg' />
+                    <hr className='border-t-2 border-gray-200 my-4 w-full opacity-10 rounded-lg' />
                     <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             हिन्दी

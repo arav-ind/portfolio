@@ -52,6 +52,7 @@ export default function Modal() {
 
     return (
         <div
+            id='modal'
             className={`fixed top-0 w-full h-full z-50 bg-transparent transform transition-transform ease-in-out duration-300
             ${content ? 'show-modal' : 'hide-modal'}`}
         >
