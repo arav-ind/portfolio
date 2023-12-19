@@ -8,7 +8,20 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aravind D | Software Engineer',
-  description: 'Frontend Developer Portfolio',
+  description: `Experienced Software Engineer with a background of three years,
+  specializing in the development of sophisticated applications catering to a substantial user base.`,
+  icons: {
+    icon: [
+      '/favicon.ico?v=4',
+    ],
+    apple: [
+      'apple-touch-icon.png?v=4'
+    ],
+    shortcut: [
+      'apple-touch-icon.png'
+    ]
+  },
+  manifest: '/site.webmanifest'
 }
 
 export default function RootLayout({
