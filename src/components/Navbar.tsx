@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import HamMenu from './HamMenu'
 import { NAVBAR } from '@/constants/constants'
 import person from '@/icons/person.svg'
 import work from '@/icons/work.svg'
@@ -29,7 +28,6 @@ export default function Navbar() {
             <span className='lg:flex hidden'>{NAVBAR.ITEM3}</span>
           </Link>
         </div>
-        {/* <HamMenu /> */}
       </div>
     </nav>
   )
