@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Modal from '@/components/Modal'
 import Navbar from '@/components/Navbar'
 import './globals.css'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,6 +32,17 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${inter.className} min-h-screen no-scrollbar`}>
+        <Script async src='https://www.googletagmanager.com/gtag/js?id=G-2714EDR4MG' />
+        <Script id='google-analytics'>
+          {
+            `
+              window.dataLayer = window.dataLayer || []
+              function gtag(){dataLayer.push(arguments)}
+              gtag('js', new Date());
+              gtag('config', 'G-2714EDR4MG');
+            `
+          }
+        </Script>
         <Modal />
         <Navbar />
         {children}
