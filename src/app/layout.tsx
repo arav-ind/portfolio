@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aravind D | Software Engineer',
-  description: `Experienced Software Engineer with a background of three years,
-  specializing in the development of sophisticated applications catering to a substantial user base.`,
+  description: `Experienced Software Engineer specializing in the development of 
+  sophisticated applications catering to a substantial user base.`,
   icons: {
     icon: [
       '/favicon.ico?v=4',
