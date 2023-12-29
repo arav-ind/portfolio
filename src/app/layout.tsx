@@ -4,6 +4,7 @@ import Modal from '@/components/Modal'
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import Script from 'next/script'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,6 +47,7 @@ export default function RootLayout({
         <Modal />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )

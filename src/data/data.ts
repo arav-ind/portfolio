@@ -32,17 +32,24 @@ export const cardData = [
         tag: 'about'
     },
     {
-        id: 'movies',
-        title: 'Movies',
-        icon: theatres,
-        background: 'linear-gradient(95deg, #1DE3FF 0%, rgba(140, 210, 151, 0.13) 136.08%)',
-        tag: 'extras'
-    },
-    {
         id: 'technologies',
         title: 'Technologies',
         icon: technology,
         background: 'linear-gradient(122deg, #835757 0%, rgba(141, 0, 0, 0.00) 189.13%)',
+        tag: 'works'
+    },
+    {
+        id: 'projects',
+        title: 'Projects',
+        icon: code,
+        background: 'linear-gradient(95deg, #AE0CA8 0%, rgba(210, 182, 140, 0.13) 136.08%)',
+        tag: 'works'
+    },
+    {
+        id: 'contributions',
+        title: 'Open Source',
+        icon: terminal,
+        background: 'linear-gradient(122deg, #00FFF0 0%, rgba(49, 88, 0, 0.00) 189.13%)',
         tag: 'works'
     },
     {
@@ -53,18 +60,18 @@ export const cardData = [
         tag: 'about'
     },
     {
+        id: 'movies',
+        title: 'Movies',
+        icon: theatres,
+        background: 'linear-gradient(95deg, #1DE3FF 0%, rgba(140, 210, 151, 0.13) 136.08%)',
+        tag: 'extras'
+    },
+    {
         id: 'shows',
         title: 'Shows',
         icon: tv,
         background: 'linear-gradient(95deg, #1DFF93 0%, rgba(140, 210, 151, 0.13) 136.08%)',
         tag: 'extras'
-    },
-    {
-        id: 'projects',
-        title: 'Projects',
-        icon: code,
-        background: 'linear-gradient(95deg, #AE0CA8 0%, rgba(210, 182, 140, 0.13) 136.08%)',
-        tag: 'works'
     },
     // {
     //     id: 'hobbies',
@@ -73,13 +80,6 @@ export const cardData = [
     //     background: 'linear-gradient(90deg, #FFA7C2 0%, rgba(244, 138, 14, 0.13) 128.62%)',
     //     tag: 'extras'
     // },
-    {
-        id: 'contributions',
-        title: 'Open Source',
-        icon: terminal,
-        background: 'linear-gradient(122deg, #00FFF0 0%, rgba(49, 88, 0, 0.00) 189.13%)',
-        tag: 'works'
-    },
 ]
 
 // For Technologies Modal
@@ -159,6 +159,7 @@ export const technologiesModalSource: TechnologiesModalSourceType = {
 
 // For Movies Modal
 export const movies = [
+    { name: 'Harakiri', language: 'Japanese' },
     { name: 'The Shawshank Redemption', language: 'English' },
     { name: 'Kumbalangi Nights', language: 'Malayalam' },
     { name: 'Apocalypse Now', language: 'English' },
