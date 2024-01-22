@@ -36,7 +36,7 @@ export default function Languages() {
                     <div className='w-56 h-auto rounded-2xl flex flex-col relative items-center'>
                         <p className='font-semibold text-xl mt-4'>
                             日本語
-                            <span className='text-sm font-extralight'> (Intermediate)</span>
+                            <span className='text-sm font-extralight'> (JLPT N5 Certified)</span>
                         </p>
                         <p className='font-medium text-sm'>Japanese 🇯🇵</p>
                         <div className='mt-4'>
