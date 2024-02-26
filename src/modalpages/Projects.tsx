@@ -56,14 +56,15 @@ export default function Projects() {
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
-                            SVG Map
+                            react-svgmap-x
                             <span className='text-xs font-extralight italic'> (Personal Project)</span>
                         </p>
                     </div>
                     <p className='text-sm leading-5'>
-                        Developed and published this npm package <b>react-svgmap-india</b> with click and hover funtionality.
+                        Developed and published multiple npm packages <b>react-svgmap-india</b>, <b>react-svgmap-usa</b>,
+                        <b> react-svgmap-japan</b> etc. with click and hover funtionality.
                     </p>
-                    <Link className='text-sm leading-5 italic' href='https://github.com/arav-ind/react-svgmap-india' target='_blank'>Click Here to Checkout!</Link>
+                    <Link className='text-sm leading-5 italic' href='https://www.npmjs.com/~arav-ind' target='_blank'>Click Here to Checkout!</Link>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start mt-5 gap-4'>

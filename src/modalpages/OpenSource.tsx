@@ -18,29 +18,22 @@ export default function OpenSource() {
                     </div>
                     <p className='text-sm'>
                         Contributed in resolving an issue in the React UI library where the <i>transformOrigin </i>
-                        attribute of <i>svg element</i> was not being recognized.
+                        attribute related to <i>svg element</i> was not being recognized.
                     </p>
                     <p className='text-sm'>
                         Through debugging, identified the root cause and implemented the necessary fix.
                         After making a few requested modifications, the fix was accepted and integrated into the library.
                     </p>
                     <p className='text-sm'>
-                        Checkout the initial github discussions describing the issue and its fix
-                        <Link href='https://github.com/facebook/react/pull/26115'
+                        Checkout the github discussions
+                        <Link href='https://github.com/facebook/react/pulls?q=is%3Apr+is%3Aclosed+author%3Aarav-ind'
                             className='italic text-blue-500' target='_blank'> here!</Link>
-                    </p>
-                    <p className='text-sm'>
-                        Subsequently, implemented some requested modifications and submitted a pull request.
-                        <Link href='https://github.com/facebook/react/pull/26130'
-                            className='italic text-blue-500' target='_blank'> Click here to checkout!</Link>
                     </p>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <div className='flex flex-col items-start gap-4'>
                     <p className='text-sm'>
-                        <i>Further, getting updated on new releases and trying to go through and
-                            debug the reported issues whenever possible.
-                            Will update more soon...</i>😉
+                        <i>Further, cloning other open source repos to study standard dev practices and other stuffs.</i>
                     </p>
                 </div>
                 <div className='flex flex-col mt-5 gap-4'>
