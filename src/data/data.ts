@@ -198,9 +198,10 @@ export const movies = [
 
 // For Shows Modal
 export const shows = [
-    { name: 'Naruto', language: 'Japanese' },
+    { name: 'Haikyu!', language: 'Japanese' },
     { name: 'Prison Break', language: 'English' },
     { name: 'Tonari no Seki-Kun', language: 'Japanese' },
+    { name: 'Naruto', language: 'Japanese' },
     { name: 'Attack On Titan', language: 'Japanese' },
     { name: 'Breaking Bad', language: 'English' },
     { name: 'Game of Thrones', language: 'English' },
