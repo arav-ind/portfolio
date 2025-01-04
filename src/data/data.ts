@@ -26,7 +26,7 @@ import { TechnologiesModalSourceType } from '@/types/types'
 export const cardData = [
     {
         id: 'resume',
-        title: 'Resume',
+        title: 'Resumé',
         icon: scanner,
         background: 'linear-gradient(122deg, #6e3d95 0%, rgba(68, 0, 141, 0.00) 189.13%)',
         tag: 'about'
