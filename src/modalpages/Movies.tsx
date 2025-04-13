@@ -1,6 +1,7 @@
 import { movies } from '@/data/data'
 import Image from 'next/image'
 import theatres from '@/icons/theaters.svg'
+import Link from 'next/link'
 
 export default function Movies() {
     return (
@@ -21,7 +22,8 @@ export default function Movies() {
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
                 <p className='text-xs font-light'>
                     <i>
-                        These are the movies I love, listed without any particular order.
+                        Connect with me at
+                        <Link href='https://letterboxd.com/arav_ind/' className='italic text-pink-500' target='_blank'> Letterboxd!</Link>
                     </i>
                 </p>
                 <div className='flex flex-col mt-5 gap-4'>

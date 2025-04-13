@@ -5,7 +5,7 @@ import { INTRO } from '@/constants/constants'
 import { useState } from 'react'
 
 export default function TypeAnimationComponent() {
-  const [showAnimation, setShowAnimation] = useState(true)
+  const [showAnimation, setShowAnimation] = useState(false)
   return (
     <div className='whitespace-nowrap font-bold text-xl' onClick={() => setShowAnimation(!showAnimation)}>
       {showAnimation ?
@@ -15,11 +15,9 @@ export default function TypeAnimationComponent() {
             2000,
             INTRO.TEXT2,
             1000,
-            INTRO.TEXT3,
-            2000,
           ]}
           wrapper='span'
-          speed={10}
+          speed={20}
           repeat={Infinity}
         />) : (
           <p>{INTRO.TEXT1}</p>
