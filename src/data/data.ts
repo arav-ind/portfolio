@@ -21,6 +21,7 @@ import angular from '@/icons/technologies/angular.svg'
 import tailwind from '@/icons/technologies/tailwind.svg'
 import docker from '@/icons/technologies/docker.svg'
 import css from '@/icons/technologies/css.svg'
+import go from '@/icons/technologies/go.svg'
 import { TechnologiesModalSourceType } from '@/types/types'
 
 export const cardData = [
@@ -100,6 +101,10 @@ export const technologiesModalSource: TechnologiesModalSourceType = {
                 logo: javascript,
             },
             {
+                name: 'TypeScript',
+                logo: typescript,
+            },
+            {
                 name: 'ReactJS',
                 logo: react,
             },
@@ -125,16 +130,16 @@ export const technologiesModalSource: TechnologiesModalSourceType = {
                 logo: java,
             },
             {
-                name: 'TypeScript',
-                logo: typescript,
-            },
-            {
                 name: 'Spring',
                 logo: springboot,
             },
             {
                 name: 'NodeJS',
                 logo: nodejs,
+            },
+            {
+                name: 'Go',
+                logo: go,
             },
         ],
     },

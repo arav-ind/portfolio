@@ -1,3 +1,4 @@
+import altair from '@/icons/altair.svg'
 import zee5Icon from '@/icons/zee5.svg'
 import Image from 'next/image'
 import astroIcon from '@/icons/astro.svg'
@@ -13,7 +14,25 @@ export default function Projects() {
                 <Image className='opacity-80' src={code} alt='logo' />
                 <p className='flex font-semibold text-3xl'>Projects</p>
             </div>
+
             <div id='projects-content' className='sm:w-[40%] w-full sm:px-2 px-8 h-full flex flex-col items-start mt-5 gap-4 text-justify overflow-y-scroll no-scrollbar'>
+                <div className='flex flex-col items-start mt-5 gap-4'>
+                    <div className='flex items-center justify-start gap-4'>
+                        <Image src={altair} alt='Zee5 logo' width={50} height={50} />
+                        <p className='font-bold text-xl'>Altair Rapidminer</p>
+                    </div>
+                    <p className='text-sm leading-5'>
+                        Working in the development team of Altair Rapidminer.
+                    </p>
+                    <p className='text-sm leading-5'>
+                        Migrated multiple frontend apps to a microfrontend architecture, enabling seamless integration across applications and enhancing the overall user experience.
+                    </p>
+                </div>
+                <p className='text-sm leading-5'>
+                    More about Altair Rapidminer can be found <Link className='text-sm italic' href='https://www.altair.com/rapidminer/' target='_blank'>here!</Link>
+                </p>
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
+
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-4'>
                         <Image src={zee5Icon} alt='Zee5 logo' width={50} height={50} />
@@ -33,6 +52,7 @@ export default function Projects() {
                     </p>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
+
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <Image src={astroIcon} alt='AstroGO logo' width={50} height={50} />
@@ -53,6 +73,21 @@ export default function Projects() {
                     </p>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
+
+                <div className='flex flex-col items-start mt-5 gap-4'>
+                    <div className='flex items-center justify-start gap-6'>
+                        <p className='font-bold text-xl'>
+                            ffmpego
+                            <span className='text-xs font-extralight italic'> (Personal Project)</span>
+                        </p>
+                    </div>
+                    <p className='text-sm leading-5'>
+                        Built a Go wrapper around ffmpeg for fast, batch video format conversion, resolution adjustments, and custom transcoding processes.
+                    </p>
+                    <Link className='text-sm leading-5 italic' href='https://github.com/arav-ind/ffmpego' target='_blank'>Click Here to Checkout!</Link>
+                </div>
+                <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
+
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
@@ -67,6 +102,7 @@ export default function Projects() {
                     <Link className='text-sm leading-5 italic' href='https://www.npmjs.com/~arav-ind' target='_blank'>Click Here to Checkout!</Link>
                 </div>
                 <hr className='border-t-2 border-gray-300 my-4 w-full opacity-10 rounded-lg' />
+
                 <div className='flex flex-col items-start mt-5 gap-4'>
                     <div className='flex items-center justify-start gap-6'>
                         <p className='font-bold text-xl'>
